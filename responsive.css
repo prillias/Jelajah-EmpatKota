@@ -22,7 +22,7 @@
     margin-bottom: 50px;
   }
 
-  .lesson_icon {
+  .lesson-icon {
   flex: auto;
   width: 100%
   }
@@ -39,7 +39,7 @@
     width: 100%;
   }
 
-  .lesson_icon{
+  .lesson-icon{
     flex-wrap: wrap;
     width: 50%
   }
