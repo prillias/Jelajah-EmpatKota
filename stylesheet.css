@@ -28,14 +28,14 @@ a {
   text-align: right;
 }
 
-.container-head {
-  width: 100%;
-  margin: 0 auto;
+
 }
 .container {
+  max-width:1170px;
   width: 100%;
-  background-color: none;
+  padding: 0 15px;
   margin: 0 auto;
+  
 }
 
 .top-wrapper h1 {
@@ -162,11 +162,31 @@ body {
   font-family: "Lucida Grande";
 }
 
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
 
 .container {
 width: 100%
+  max-width: 1170px;
  }
 
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
 
 .lesson-wrapper {
   padding-bottom: 80px;
@@ -220,31 +240,19 @@ width: 100%
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  display: none;f
+  display: none;
 }
+
+
 /*reni finish*/
 
 /* prillia start */
 
-.lesson-wrapper {
-  width: 100%;
-  margin: 0 auto;
-}
 
 .heading h2 {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-}
-
-.lessons {
-  display:flex;
-
-}
-
-.lesson-icon {
-  flex: auto;
-  width: 100%;
 }
 
 .clear {
@@ -260,11 +268,7 @@ body {
 }
 
 
-.container {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
+
 
 .btn {
   padding: 12px 24px;
@@ -340,7 +344,7 @@ body {
 }
 
 .footer h2 {
-  font:bold 14px Arial,Sans-Serif;
+  font:bold 12px Arial,Sans-Serif;
   margin:0px 0px 10px;
 }
 
