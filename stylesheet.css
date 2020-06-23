@@ -23,7 +23,7 @@ a {
   background-image:url(https://p0.pikist.com/photos/164/324/landscape-morning-mountain-volcano-java-island-indonesia.jpg);
   background-size: cover;
   background-position: center;
-  padding: 180px 0 100px 0;
+  padding: 180px 20px 100px 0;
   color: white;
   text-align: right;
 }
@@ -32,7 +32,7 @@ a {
   width: 100%;
   margin: 0 auto;
 }
-.container-judul {
+.container {
   width: 100%;
   background-color: none;
   margin: 0 auto;
@@ -99,7 +99,7 @@ header {
   width: 100%;
   background-color: rgba(145, 86, 27, 0.6);
   position: fixed;
-  top: 12px;
+  top: 0px;
   z-index: 10;
 }
 
@@ -162,30 +162,11 @@ body {
   font-family: "Lucida Grande";
 }
 
-a {
-  text-decoration: none;
-}
-
-.clear {
-  clear: left;
-}
 
 .container {
 width: 100%
  }
 
-.fa {
-  margin-right: 5px;
-}
-
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
-}
 
 .lesson-wrapper {
   padding-bottom: 80px;
@@ -239,18 +220,18 @@ header {
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  display: none;
+  display: none;f
 }
 /*reni finish*/
 
 /* prillia start */
 
-.lesson_wrapper {
+.lesson-wrapper {
   width: 100%;
   margin: 0 auto;
 }
 
-.heading_lesson h3 {
+.heading h2 {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -261,7 +242,7 @@ header {
 
 }
 
-.lesson_icon {
+.lesson-icon {
   flex: auto;
   width: 100%;
 }
@@ -278,9 +259,6 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
 
 .container {
   width: 1170px;
